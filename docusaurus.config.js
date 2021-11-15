@@ -43,17 +43,19 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
-        logo: {
+        title: 'Iterative Development',
+/*
+     logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
+     */
         items: [
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Document',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {

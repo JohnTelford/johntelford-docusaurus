@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'JohnTelford.com',
+  tagline: 'Iterative Web Development',
+  url: 'https://johntelford.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -53,7 +53,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'overview',
             position: 'left',
             label: 'Document',
           },
@@ -72,8 +72,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Overview',
+                to: '/docs/overview',
               },
             ],
           },
@@ -108,7 +108,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} John Telford`,
       },
       prism: {
         theme: lightCodeTheme,
@@ -117,4 +117,6 @@ const config = {
     }),
 };
 
-module.exports = config;
+  
+module.exports = (config)
+  

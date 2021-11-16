@@ -26,6 +26,22 @@ const sidebars = {
     },
   ],
    */
+
+  mySidebar: {
+    'Iterative Development': ['overview'],
+
+    Development: [
+      'development/define',
+      'development/design'
+    ],
+    Develop: [
+      'development/develop/devoverview', 
+      'development/develop/programming',
+      'development/develop/webcomp',
+      'development/develop/workstations',
+    ]
+  },
+
 };
 
 module.exports = sidebars;

@@ -43,7 +43,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Iterative Development',
+        title: 'Iterative Web Development',
 /*
      logo: {
           alt: 'My Site Logo',

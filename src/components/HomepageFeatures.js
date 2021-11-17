@@ -4,12 +4,14 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Optimizing Web Development',
+
+ Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default, 
+
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Web programming is not easy. It is complex, time consuming, and expensive. Optimizing websites is critical.
+        The majority of website are accessed by users using mobile devices. They have little tolerance for slow loading web pages or pages that do not conform to their screen size.
       </>
     ),
   },

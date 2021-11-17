@@ -17,9 +17,10 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/overview">
-            Website Overview
+            Documents
           </Link>
         </div>
+        
       </div>
     </header>
   );
@@ -32,11 +33,9 @@ export default function Home() {
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
-      <main>
-        {/*
+    <main>
         <HomepageFeatures />
-        */}
       </main>
-    </Layout>
+</Layout>
   );
 }

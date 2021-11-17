@@ -28,19 +28,38 @@ const sidebars = {
    */
 
   mySidebar: {
-    'Iterative Development': ['overview'],
-
-    Development: [
-      'development/define',
-      'development/design'
+    'Iterative Development': [
+      'overview',
     ],
-    Develop: [
-      'development/develop/devoverview', 
-      'development/develop/programming',
-      'development/develop/webcomp',
-      'development/develop/workstations',
-    ]
-  },
+    
+  'Define' : [
+    'define/define',
+  ],
+
+  'Design': [
+    'design/design',
+  ],
+
+    'Develop' : [
+      'develop/overview', 
+      'develop/programming',
+      'develop/webcomp',
+      'develop/workstations',
+    ],
+
+    'Deploy': [
+      'deploy/deploy',
+    ],
+
+    'Maintain': [
+    'maintain/maintain',
+  ],
+
+  'Company': [
+    'company/company',
+  ],
+
+},
 
 };
 

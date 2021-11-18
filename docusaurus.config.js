@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Iterative Web Dev',
+  title: 'Develop Iterative Websites',
   tagline: 'JohnTelford.com',
   url: 'https://johntelford.com',
   baseUrl: '/',

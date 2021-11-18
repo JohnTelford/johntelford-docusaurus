@@ -41,7 +41,7 @@ const sidebars = {
   ],
 
     'Develop' : [
-      'develop/overview', 
+      'develop/develop', 
       'develop/programming',
       'develop/webcomp',
       'develop/workstations',

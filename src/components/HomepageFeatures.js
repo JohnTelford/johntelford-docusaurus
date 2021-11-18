@@ -10,29 +10,28 @@ const FeatureList = [
 
     description: (
       <>
-       Optimizing websites is critical.
-        The majority of website are accessed by users using mobile devices. They and others have little tolerance for slow loading web pages or pages that do not conform to their screen size. 
+       Optimizing websites is critical. Website designs need to ensure pages load quickly and display correctly, on a variety of devices and screen sizes. The website look and feel, users experience, and functionality need to be consistence.
+
+
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Reducing Cost',
     Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Defect remediation costs during the lifetime of websites may be many times the cost of developing them. The culprit is not detecting website defects early in development stages.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Web  Component Era',
     Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
+Web Components are independent and reusable pieces of code to creating new customs components. Web components are based on existing web standards. They enable web developers to encapsulated styling and custom behavior.     
+</>
     ),
   },
 ];

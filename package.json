@@ -1,7 +1,8 @@
 {
   "name": "johntelforddoc",
-  "version": "0.0.0",
+  "version": "0.1.1",
   "private": true,
+  "license": "MIT",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
@@ -15,6 +16,7 @@
   },
   "dependencies": {
     "@docusaurus/core": "2.0.0-beta.9",
+    "@docusaurus/plugin-content-docs": "^2.0.0-beta.9",
     "@docusaurus/preset-classic": "2.0.0-beta.9",
     "@mdx-js/react": "^1.6.21",
     "@svgr/webpack": "^5.5.0",

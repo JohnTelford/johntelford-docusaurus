@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'JohnTelford.com',
-  tagline: 'Iterative Web Development',
+  title: 'Iterative Web Dev',
+  tagline: 'JohnTelford.com',
   url: 'https://johntelford.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -17,6 +17,7 @@ const config = {
   projectName: 'docusaurus', // Usually your repo name.
 
   presets: [
+    
     [
       '@docusaurus/preset-classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
@@ -43,7 +44,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Iterative Web Development',
+        title: 'JohnTelford.com',
 /*
      logo: {
           alt: 'My Site Logo',

@@ -1,74 +1,100 @@
 ---
-title: Develop Overview
-slug: /
-sidebar_label: Develop Overview
+title: Site Overview
+slug: /site-overview
 ---
 
 ---
+Creating websites that meet users needs are difficult, complex, time consuming, and expensive.
 
-## Overview
 
-Developing websites is akin to translating Define and Design processes into abstract logical structures using rigid nonhuman languages, and a variety of tools. The slightest errors or security issues will require remediations during the life time of the website.
-
-Web programming is not easy. It is complex, time consuming, and expensive. Optimizing the web development environment is critical.
-
-The primary tool for web development are [ Workstations](develop/workstations). They need to be fast, reliable, supportable, secure, support large or multiple screens, and work with web software development applications
-
-The key web software development tasks are editing, use source control system to managing edits, live edit previews, secure web site previews for stakeholders, and deploy to the production web site.
+This website discusses optimizing website project life time costs. It describes a  framework for building and deploying websites. It is based on Iterative Development and web component technology.
 
 ---
 
-## Prerequisites
+## Content
 
-- Develop website
-	- Responsive
-	- Development Framework
-	- Security
-	- Workstations
-	- Software Tools
-	    - Distributed Version Control System
-	    - Editing
-	    - Testing
-	- Website Programming languages
-	    - HTML
-	    - CSS
-	    - JavaScript
-	    - MDX
-	    - JSX
+People visit websites for the content. Most access the website using mobile devices. They have little tolerance for slow loading web pages or pages that do not conform to their screen size. The website look and feel, users experience, functionality, need to be consistence and complement the content.
 
 ---
-## Responsive Web Design
 
-The majority of website are accessed by users using mobile devices. They have little tollarance for slow loading web pages or pages that do not conform to their screen size.
+## Iterative Development
 
-Website designs must ensure pages load quickly and adjust from minimum to maximum display size to ensure usability. Web pages must display correctly on a variety of devices and window or screen sizes from minimum to maximum display size, and the website look and feel, users experience, and functionality must maintain consistency.
+Users have little concern how content or web pages are created, deployed to the Internet, or delivered to their screens. These are primary concerns of the website development teams
 
-## Web Components
+![IterativeDev](/img/IterativeDev.png)
+
+Iterative Development enables the *Define, Design, Develop, Deploy and Maintain* teams to be operational at the same time, and to discover defects. 
+
+---
+
+## Central repository
+
+A key Iterative Development technology is a central online web hosted project repository for all project files. It is a unified source of truth. It helps teams collaborate and maintain the entire history of project file changes. Teams can view history of all changes and go back to previous versions. It helps answer the questions _who changed what, where, when, and why?_
+
+All team members have their own local copy of the central project repository. They make changes, fix defects, add new features to their copy of the project repository, without interfering with others, or the central project repository. Team members may deploy their copy of the project repository with their changes to a private Internet website for stakeholders to see and give feedback.
+
+When stakeholders determine some repository changes, defects, or new features are ready, the central project repository will be updated, and team members update their own local copy of the central project repository.
+
+<!--
+Some times companies may have little interest in how their websites are constructed, as long as they have the features and functionality needed to satisfy their users. The cost of error and security remediation, may cost a magnitude or more money than creating the websites.
+-->
+
+---
+
+## Defect Remediation Costs
+
+Content and software defects cost less when found early, as this chart shows:
  
-This site is built using web components :
+![Bug Fix Chart](/img/bugFixChart.jpg)
 
-- [React](https://reactjs.org/) is for building user interfaces (UIs). It is an open-source, front end, [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) library created by Facebook. 
+Some of the early error detection mechanisms built into the framework are:
 
-- [Next.js](https://nextjs.org) is an open source React framework [Vercel](https://vercel.com/home) built with Google and Facebook.  It is an abstraction of React omitting unimportant details and exposing the React interface.
+- Automatic tools in the editor that continually check for syntax and other errors 
+- Fast refresh live-editing quickly show changes while typing, and any runtime errors
+- Team members may deploy their copy of the project repository with their changes to private websites where stakeholders can see changes and give feedback.
 
-- [MDX](https://mdxjs.com) is [Markdown Syntax](https://daringfireball.net/projects/markdown/syntax)built for the component age by Facebook. It has identical syntax as Markdown. MDX is an author-able format that enables seamlessly writing [JSX](https://mdxjs.com/getting-started/#jsx) in MDX documents. You can import React components such as interactive charts or alerts or other components built with JSX and other React components can be imported in MDX.
+---
+
+## Minimum Viable Product 
+
+ A Minimum Viable Product is a way to understand whether a product idea will work or not. It is a stage in product development with the *must* features are implemented and ready to test with end-users. It gives feedback about the positive aspects and shortcomings.
+ 
+ The next steps are adding the *want* features, until stakeholders agree the website is ready to be Version 1 and deployed to the Internet.
+
+---
+
+## Iterative Development
+
+### [Define](/Iterative/Define/define)
+
+Defining website results contribute to *Develop*
 
 
-- [Tailwindcss](https://tailwindcss.com)
+### [Design](/Iterative/Design/design)
 
-- [Tailwind Typography](https://github.com/tailwindlabs/tailwindcss-typography)
-
-## Development Stack
+Website *Design* creates the look and feel *Develop* builds 
 
 
+### [Develop](/Iterative/Develop/develop)
+
+Developing websites is akin to translating *Define* and *Design* into abstract logical structures using rigid nonhuman languages, and a variety of tools. The slightest errors or security issues will require remediations during the life time of the website.
 
 
-## Tools
+### [Deploy](/Iterative/Deploy/deploy)
 
-- [VScode](https://code.visualstudio.com)
+Deploying a website is making it available on the Internet. The production version is deployed when stakeholders agree. Meanwhile, developers working on features, fixes, or testing may deploy private website with their changes, without disturbing other developers work or the production version. This enables the stakeholders to monitor progress.
 
-- [Git](https://git-scm.com)
 
-- [Git Documentation](https://git-scm.com/doc)
+### [Maintain](/Iterative/Maintain/maintain)
 
-- [GitHub](https://github.com)
+Maintain is remediating *Define*, *Design*,*Develop*, *Deploy*, or Security problems.
+
+---
+
+## Technology Coast Savings
+
+## Component Era
+
+
+
+## Importance of Web Design

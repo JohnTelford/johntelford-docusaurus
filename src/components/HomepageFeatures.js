@@ -4,14 +4,14 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Optimizing Web Development',
+    title: 'Optimizing Websites',
 
  Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default, 
 
     description: (
       <>
-        Web programming is not easy. It is complex, time consuming, and expensive. Optimizing websites is critical.
-        The majority of website are accessed by users using mobile devices. They have little tolerance for slow loading web pages or pages that do not conform to their screen size.
+       Optimizing websites is critical.
+        The majority of website are accessed by users using mobile devices. They and others have little tolerance for slow loading web pages or pages that do not conform to their screen size. 
       </>
     ),
   },

@@ -1,117 +1,97 @@
 ---
-id: overview
-title: Overview
-slug: overview
+title:  Overview
+slug: /overview
 ---
 
 ---
-
-Creating websites is difficult, complex, time consuming, and expensive.
-
-> Some times companies may have little interest in how their websites are constructed, as long as they have the features and functionality needed to satisfy their target market. The cost of errors and security remediations during the life time of the website, may cost a magnitude more money than website development costs.
-
-This website is about optimizing website project life time costs. It describes developing websites using Iterative Development. It is also about design for mobile.
-
-The majority of website are accessed by users using mobile devices. They have little tolerance for slow loading web pages or pages that do not conform to their screen size.
+Creating websites that meet users needs are difficult, complex, time consuming, and expensive.
 
 
-<!--
+This website discusses optimizing website project life time costs. It describes a  framework for building and deploying websites. It is based on Iterative Development and web component technology.
 
-<Image src="/IterativeDev.png" width={455} height={455} />
+---
 
--->
+## Content
 
-![Inerative Design](/img/IterativeDev.png)
-
-Iterative website development enables the Define, Design, Develop, Deploy and Maintain processes to be be operational and find defects at the same time.
+People visit websites for the content. Most access the website using mobile devices. They have little tolerance for slow loading web pages or pages that do not conform to their screen size. The website look and feel, users experience, functionality, need to be consistence and complement the content.
 
 ---
 
 ## Iterative Development
 
-### Define
+Users have little concern how content or web pages are created, deployed to the Internet, or delivered to their screens. These are primary concerns of the website development teams
 
-Defining website results contribute to *Develop*
+![IterativeDev](/img/IterativeDev.png)
 
-
-### Design
-
-
-Website *Design* creates the look and feel *Develop* builds 
-
-
-### Develop
-
-Developing websites is akin to translating *Define* and *Design* into abstract logical structures using rigid nonhuman languages, and a variety of tools. The slightest errors or security issues will require remediations during the life time of the website.
-
-
-### Deploy
-
-Deploying a website is making it available on the Internet. The production version is deployed when stakeholders agree. Meanwhile, developers working on features, fixes, or testing may deploy private website with their changes, without disturbing other developers work or the production version. This enables the stakeholders to monitor progress.
-
-
-### Maintain
-
-Maintain is remediating *Define*, *Design*,*Develop*, *Deploy*, or Security problems.
+Iterative Development enables the *Define, Design, Develop, Deploy and Maintain* teams to be operational at the same time, and to discover defects. 
 
 ---
 
-## Perquisites
+## Central repository
 
-Knowing  perquisites for building a website are the first steps in optimizing website costs. 
+A key Iterative Development technology is a central online web hosted project repository for all project files. It is a unified source of truth. It helps teams collaborate and maintain the entire history of project file changes. Teams can view history of all changes and go back to previous versions. It helps answer the questions _who changed what, where, when, and why?_
 
-Each Iterative Development process listed below has their perquisites  followed with details
+All team members have their own local copy of the central project repository. They make changes, fix defects, add new features to their copy of the project repository, without interfering with others, or the central project repository. Team members may deploy their copy of the project repository with their changes to a private Internet website for stakeholders to see and give feedback.
 
----
+When stakeholders determine some repository changes, defects, or new features are ready, the central project repository will be updated, and team members update their own local copy of the central project repository.
 
-## Responsive Web Design
-
-The majority of website are accessed by users using mobile devices. They have little tollarance for slow loading web pages or pages that do not conform to their screen size.
-
-Website designs must ensure pages load quickly and adjust from minimum to maximum display size to ensure usability. Web pages must display correctly on a variety of devices and window or screen sizes from minimum to maximum display size, and the website look and feel, users experience, and functionality must maintain consistency.
+<!--
+Some times companies may have little interest in how their websites are constructed, as long as they have the features and functionality needed to satisfy their users. The cost of error and security remediation, may cost a magnitude or more money than creating the websites.
+-->
 
 ---
 
 ## Iterative Development Stack
 
-<!--
-
-<Image src="/IterativeDevelopment.png" width={500} height={800} />
-
-!-->
-
 ![Iterative Stack](/img/IterativeDevelopment.png)
 
----
 
-## Web Components
+## Defect Remediation Costs
+
+Content and software defects cost less when found early, as this chart shows:
  
-This site is built using web components :
+![Bug Fix Chart](/img/bugFixChart.jpg)
 
-- [React](https://reactjs.org/) is for building user interfaces (UIs) is an open-source, front end, [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) library created by Facebook. 
+Some of the early error detection mechanisms built into the framework are:
 
-- [Next.js](https://nextjs.org) is a React framework.  It is an abstraction of React omitting unimportant details and exposing the React interface.
-
-- [MDX](https://mdxjs.com) is Markdown built for the component age by Facebook. It has identical syntax as Markdown. MDX is an author-able format that enables seamlessly writing [JSX](https://reactjs.org/docs/introducing-jsx.html) in Markdown documents. You can import React components such as interactive charts or alerts or other components built with JSX and other React components.
-
-
-- [Tailwindcss](https://tailwindcss.com)
-
-- [Tailwind Typography](https://github.com/tailwindlabs/tailwindcss-typography)
+- Automatic tools in the editor that continually check for syntax and other errors 
+- Fast refresh live-editing quickly show changes while typing, and any runtime errors
+- Team members may deploy their copy of the project repository with their changes to private websites where stakeholders can see changes and give feedback.
 
 ---
 
-## Tools
+## Minimum Viable Product 
 
-- [VScode](https://code.visualstudio.com)
-
-- [Git](https://git-scm.com)
-
-- [Git Documentation](https://git-scm.com/doc)
-
-- [GitHub](https://github.com)
-
+ A Minimum Viable Product is a way to understand whether a product idea will work or not. It is a stage in product development with the *must* features are implemented and ready to test with end-users. It gives feedback about the positive aspects and shortcomings.
+ 
+ The next steps are adding the *want* features, until stakeholders agree the website is ready to be Version 1 and deployed to the Internet.
 
 ---
 
+## Iterative Development
 
+### [Define](define/define)
+
+Defining website results contribute to *Develop*
+
+
+### [Design](design/design)
+
+Website *Design* creates the look and feel *Develop* builds 
+
+
+### [Develop](develop/develop)
+
+Developing websites is akin to translating *Define* and *Design* into abstract logical structures using rigid nonhuman languages, and a variety of tools. The slightest errors or security issues will require remediations during the life time of the website.
+
+
+### [Deploy](deploy/deploy)
+
+Deploying a website is making it available on the Internet. The production version is deployed when stakeholders agree. Meanwhile, developers working on features, fixes, or testing may deploy private website with their changes, without disturbing other developers work or the production version. This enables the stakeholders to monitor progress.
+
+
+### [Maintain](maintain/maintain)
+
+Maintain is remediating *Define*, *Design*,*Develop*, *Deploy*, or Security problems.
+
+---

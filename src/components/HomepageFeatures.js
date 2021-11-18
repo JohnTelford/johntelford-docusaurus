@@ -10,7 +10,7 @@ const FeatureList = [
 
     description: (
       <>
-       Optimizing websites is critical. Website designs need to ensure pages load quickly and display correctly, on a variety of devices and screen sizes. The website look and feel, users experience, and functionality need to be consistence.
+       Optimizing websites is critical to ensure pages load quickly and display correctly, on a variety of devices and screen sizes. The website look and feel, users experience, and functionality need to be consistence.
 
 
       </>

@@ -29,7 +29,7 @@ const sidebars = {
 
   mySidebar: {
     'Iterative Development': [
-      'site-overview',
+      'overview',
     ],
     
   'Define' : [

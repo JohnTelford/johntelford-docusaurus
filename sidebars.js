@@ -57,8 +57,6 @@ const sidebars = {
 
   'Company': [
     'company/company',
-    'company/webresume',
-    'company/techresume',
   ],
 
 },

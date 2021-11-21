@@ -32,10 +32,6 @@ const sidebars = {
       'overview',
     ],
     
-  'An Example': [
-    'example/example',
-  ],
-    
   'Define' : [
     'define/define',
   ],

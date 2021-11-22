@@ -118,8 +118,15 @@ This site is built using web components :
     - Some features I like are:
         - Powered by MDX
         - Extend and customize with React
-        - Hot reloading with  fast incremental build on changes
+        - Hot reloading with fast incremental build on edit changes
         - Route-based code and data splitting
+        - Build deploymnet running on local server using the same process as the deployment serve
+        - Blog MDX files
+        - Blog and file:
+            - Side Menu
+                - Project
+                - Blog posts
+            - Table of  MDX contents
 
 - [MDX](https://mdxjs.com) is [Markdown Syntax](https://daringfireball.net/projects/markdown/syntax) built for the component age by Facebook. It has identical syntax as Markdown. MDX is an author-able format that enables seamlessly writing [JSX](https://mdxjs.com/getting-started/#jsx) in MDX documents. You can import React components such as interactive charts or alerts or other components built with JSX and other React components, can be imported in MDX.
 
@@ -129,13 +136,50 @@ This site is built using web components :
 
 [Docusaurus](https://docusaurus.io/docs#features) supports static site hosting services such as [Vercel](https://vercel.com/), [GitHub Pages](https://pages.github.com/) ,  [Netlify](https://www.netlify.com/) and others.
 
-This site is using [Vercel](https://vercel.com/) for deployment
+This site is using [Vercel](https://vercel.com/) Global[Content Delivery Network](https://en.wikipedia.org/wiki/Content_delivery_network) for deployment. Their motto is *Develop, Preview, Ship*.
+
+:::note
+
+Some benefits  deploying project with Vercel: 
+
+- Perfrmance
+- Ease of use
+
+:::
+
+Some features I like are:
+- Automatic deploys after a push to the GitHub repository.
+    - Production website
+    - Team member deploy to a secure website
+- Command line deployments using the `vercel` app.
+- Builds are quick, especially those with few changes.
+- Redeploy previous deployments and look at the code used to generate them.
+
+
 
 ---
 
 ## Tools
 
+### Hardware
+
 The primary hardware tool for web development are [ Workstations](workstations). They need to be fast, reliable, supportable, secure, support large or multiple screens, and work with web software development applications
+
+### Software
+
+Some tools that help detect defects early
+- `vscode` extensions
+- Link checker
+- Quickly checking repository commits and file changes
+- [iA Witer](https://apps.apple.com/us/app/ia-writer/id775737590?mt=12) The Markdown Writing App.
+    - Faster way to write MDX media matter
+    - Extensive Style Check
+    - Focus
+        - Sentence
+        - Paragraph
+
+
+
 
 ---
 

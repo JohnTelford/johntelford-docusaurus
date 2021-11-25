@@ -1,0 +1,19 @@
+rad-ia
+Tue Nov 23 10:54:32 PST 2021
+total 56
+drwxr-xr-x@ 6 johntelford  staff   192 Nov 22 13:49 Develop
+-rw-r--r--@ 1 johntelford  staff   532 Nov 22 14:01 Untitled.mdx
+-rw-r--r--@ 1 johntelford  staff  1726 Nov 22 23:53 define.mdx
+-rw-r--r--@ 1 johntelford  staff  1234 Nov 22 13:54 design.mdx
+-rw-r--r--@ 1 johntelford  staff   192 Nov 22 13:58 maintain.mdx
+-rw-r--r--@ 1 johntelford  staff  3615 Nov 22 14:17 overview.mdx
+-rw-r--r--  1 johntelford  staff   801 Nov 23 10:14 ra-ia.txt
+-rw-r--r--  1 johntelford  staff   864 Nov 23 10:24 rad-ia-txt
+-rw-r--r--  1 johntelford  staff     0 Nov 23 10:21 rad-ia.txt
+
+./Develop:
+total 56
+-rw-r--r--@ 1 johntelford  staff  6675 Nov 22 13:49 develop.mdx
+-rw-r--r--@ 1 johntelford  staff  4501 Nov 22 13:41 programming.mdx
+-rw-r--r--@ 1 johntelford  staff  3423 Nov 22 13:48 webcomp.mdx
+-rw-r--r--@ 1 johntelford  staff  5926 Nov 22 13:41 workstations.mdx

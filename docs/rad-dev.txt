@@ -1,46 +1,17 @@
-rad-ia
-Tue Nov 23 11:01:30 PST 2021
-total 32
-drwxr-xr-x  3 johntelford  staff    96 Nov 18 17:28 company
-drwxr-xr-x  3 johntelford  staff    96 Nov 16 23:35 define
-drwxr-xr-x  3 johntelford  staff    96 Nov 16 23:10 deploy
-drwxr-xr-x  3 johntelford  staff    96 Nov 16 23:57 design
-drwxr-xr-x  6 johntelford  staff   192 Nov 17 23:14 develop
-drwxr-xr-x  3 johntelford  staff    96 Nov 20 23:48 example
-drwxr-xr-x  3 johntelford  staff    96 Nov 17 00:09 maintain
--rw-r--r--  1 johntelford  staff  3555 Nov 22 15:53 overview.mdx
--rwxr-xr-x  1 johntelford  staff    88 Nov 23 10:51 rad-dev.sh
--rw-rw-rw-  1 johntelford  staff    36 Nov 23 11:01 rad-dev.txt
--rwxr-xr-x  1 johntelford  staff     0 Nov 23 11:01 rad-ia.sh
--rw-rw-rw-  1 johntelford  staff   900 Nov 23 10:56 rad-ia.txt
-
-./company:
-total 8
--rw-r--r--  1 johntelford  staff  1351 Nov 22 14:03 company.mdx
-
-./define:
-total 8
--rw-r--r--  1 johntelford  staff  1715 Nov 22 13:55 define.mdx
-
-./deploy:
-total 8
--rw-r--r--  1 johntelford  staff  532 Nov 22 14:02 deploy.mdx
-
-./design:
-total 8
--rw-r--r--  1 johntelford  staff  1234 Nov 22 13:55 design.mdx
-
-./develop:
-total 64
--rw-r--r--  1 johntelford  staff  6675 Nov 22 13:52 develop.mdx
--rw-r--r--  1 johntelford  staff  4500 Nov 22 13:40 programming.mdx
--rw-r--r--  1 johntelford  staff  7012 Nov 22 13:48 webcomp.mdx
--rw-r--r--  1 johntelford  staff  5927 Nov 22 13:43 workstations.mdx
-
-./example:
-total 8
--rw-r--r--  1 johntelford  staff  985 Nov 20 23:48 example.mdxQ
-
-./maintain:
-total 8
--rw-r--r--  1 johntelford  staff  315 Nov 22 13:58 maintain.mdx
+Nov 22 15:53 overview.mdx
+Nov 23 10:51 rad-dev.sh
+Nov 25 14:36 rad-dev.txt
+Nov 25 13:55 rad-gawk
+Nov 23 11:01 rad-ia.sh
+Nov 23 10:56 rad-ia.txt
+Nov 24 23:37 rad-id.sh
+Nov 22 14:03 company.mdx
+Nov 22 13:55 define.mdx
+Nov 22 14:02 deploy.mdx
+Nov 22 13:55 design.mdx
+Nov 22 13:52 develop.mdx
+Nov 22 13:40 programming.mdx
+Nov 22 13:48 webcomp.mdx
+Nov 22 13:43 workstations.mdx
+Nov 20 23:48 example.mdxQ
+Nov 22 13:58 maintain.mdx

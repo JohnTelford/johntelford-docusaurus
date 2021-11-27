@@ -1,0 +1,36 @@
+*** /Volumes/Dev/Docusaurus/johntelforddoc/docs/dev-docs.txt	2021-11-26 17:52:59.000000000 -0800
+--- /Volumes/Dev/Docusaurus/johntelforddoc/docs/ia-docs.txt	2021-11-26 17:52:59.000000000 -0800
+***************
+*** 1,21 ****
+  
+! dev-docs.txt Fri Nov 26 17:52:59 PST 2021
+! Nov 26 15:32 company.mdx
+! Nov 26 16:34 define.mdx
+! Nov 26 16:08 deploy.mdx
+! Nov 26 16:18 design.mdx
+! Nov 26 17:52 dev-docs.txt
+! Nov 26 15:42 develop.mdx
+! Nov 26 16:28 diff-docs.txt
+! Nov 26 16:28 ia-docs.txt
+! Nov 26 16:09 maintain.mdx
+! Nov 26 16:01 overview.mdx
+! Nov 26 16:01 programming.mdx
+! Nov 26 15:42 webcomp.mdx
+! Nov 26 15:42 workstations.mdx
+! Nov 26 16:58 cp-dev-ia.sh
+! Nov 26 15:39 dev-docs.txt
+! Nov 26 15:39 dev-ia-diff
+! Nov 26 15:39 dev-ia-diff.sh
+! Nov 26 15:40 diff-docs.txt
+! Nov 26 15:40 ia-docs.txt
+--- 1,10 ----
+  
+! ia-docs.txt Fri Nov 26 17:52:59 PST 2021
+! Nov 26 16:36 define.mdx
+! Nov 22 13:54 design.mdx
+! Nov 24 15:53 develop.mdx
+! Nov 22 13:58 maintain.mdx
+! Nov 23 13:46 overview.mdx
+! Nov 22 13:41 programming.mdx
+! Nov 22 13:48 webcomp.mdx
+! Nov 22 13:41 workstations.mdx

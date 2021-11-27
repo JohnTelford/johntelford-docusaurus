@@ -1,10 +1,2 @@
 
-ia-docs.txt Fri Nov 26 18:14:21 PST 2021
-Nov 26 16:36 define.mdx
-Nov 22 13:54 design.mdx
-Nov 24 15:53 develop.mdx
-Nov 22 13:58 maintain.mdx
-Nov 23 13:46 overview.mdx
-Nov 22 13:41 programming.mdx
-Nov 22 13:48 webcomp.mdx
-Nov 22 13:41 workstations.mdx
+ia-docs.txt Fri Nov 26 23:42:12 PST 2021

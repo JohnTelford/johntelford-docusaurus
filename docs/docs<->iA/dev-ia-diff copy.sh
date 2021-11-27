@@ -5,17 +5,6 @@
 
 docs="/Volumes/Dev/Docusaurus/johntelforddoc/docs"
 iA="~/Library/Mobile\ Documents/27N4MQEA55\~pro\~writer/Documents/Docusouras/docs"
-read filename
-cp $docs/$1 
-
-
-
-
-
-
-
-
-
 
 printf "\ndev-docs.txt " > ./dev-docs.txt
 date >> ./dev-docs.txt

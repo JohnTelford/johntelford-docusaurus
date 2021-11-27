@@ -1,20 +1,2 @@
 
-dev-docs.txt Fri Nov 26 18:14:20 PST 2021
-Nov 5 12:44 _app.js
-Nov 26 15:32 company.mdx
-Nov 26 18:06 create.mdx
-Nov 26 16:34 define.mdx
-Nov 26 16:08 deploy.mdx
-Nov 26 16:18 design.mdx
-Nov 26 18:14 dev-docs.txt
-Nov 26 15:42 develop.mdx
-Nov 26 17:52 diff-docs.txt
-Nov 26 18:13 ia-docs.txt
-Oct 29 14:32 index.jsQ
-Nov 11 14:45 index.mdx
-Nov 26 16:09 maintain.mdx
-Nov 26 16:01 overview.mdx
-Nov 26 18:06 prerequisites.mdx
-Nov 26 16:01 programming.mdx
-Nov 26 15:42 webcomp.mdx
-Nov 26 15:42 workstations.mdx
+dev-docs.txt Fri Nov 26 23:42:12 PST 2021

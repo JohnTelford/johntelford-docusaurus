@@ -10,7 +10,7 @@ const FeatureList = [
 
     description: (
       <>
-       Optimizing websites is critical to ensure pages load quickly and display correctly, on a variety of devices and screen sizes. The website look and feel, users experience, and functionality need to be consistence.
+        Creating and maintaining websites that meet users needs can be difficult, complex, time consuming, and costly.  More than half of mobile user will leave a website that takes longer than 3 seconds to load and may never return. Optimizing websites is minimizing costs and maximizing performance 
 
 
       </>
@@ -21,7 +21,7 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Defect remediation costs during the lifetime of websites may be many times the cost of developing them. The culprit is not detecting website defects early in development stages.
+        Defect remediation costs during the life-time of websites may be several times the cost of development. The culprit is not detecting website defects and remediating them
       </>
     ),
   },
@@ -30,7 +30,7 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-Web Components are independent and reusable pieces of code to creating new customs components. Web components are based on existing web standards. They enable web developers to encapsulated styling and custom behavior.     
+Web Components are independent and reusable pieces of code to creat new components. Web components are based on existing web standards. They enable web developers to encapsulated styling and custom behavior.     
 </>
     ),
   },

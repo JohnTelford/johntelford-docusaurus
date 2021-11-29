@@ -59,6 +59,11 @@ const sidebars = {
   'company',
 ],
 
+'Experimental': [
+  'experimental/math/math',
+  'experimental/tables/table',
+],
+
 },
 
 };

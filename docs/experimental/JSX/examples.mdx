@@ -1,6 +1,6 @@
 ---
 Id: examples
-title: Examples
+title: JSX Examples
 ---
 
 
@@ -15,7 +15,7 @@ These are a few example of  React JSX (JavaScript XML) components embedded in MD
 
 ## Table
 
-This embedded JSX
+### This JSX embedded MDX
 
   
   ```
@@ -48,7 +48,7 @@ This embedded JSX
 </div>
 ```
 
-### Renders
+#### Renders
 
   <table>
   <thead>
@@ -77,11 +77,32 @@ This embedded JSX
   </tbody>
 </table>
 
+### This JSX embedded in MDX
+
+```
+Table-1
+
+| Name | Price | Tax |
+|:--|--:|--:|
+| Widget | 10$ | 1$ |
+| Gift | 0$ ||
+[Recent Transactions]
+```
+
+#### Renders
+Table-1
+
+| Name | Price | Tax |
+|:--|--:|--:|
+| Widget | 10$ | 1$ |
+| Gift | 0$ ||
+[Recent Transactions]
+
 ---
 
 ## JSX
 
-This embedded component
+### This embedded component
 
 ```
 <div style={{ padding: '20px', backgroundColor: 'red' }}>
@@ -89,7 +110,7 @@ This embedded component
 </div>
 ```
 
-### Renders 
+#### Renders 
 
 <div style={{ padding: '15px', backgroundColor: 'pink' }}>
   This is JSX component
@@ -97,7 +118,7 @@ This embedded component
 
 ---
 
-This embedded JSX component 
+### This embedded JSX component 
 
 ```
 <div style={{ padding: '10px 30px', backgroundColor: 'cyan' }}>
@@ -105,7 +126,7 @@ This embedded JSX component
 </div>
 ```
 
-### Renders
+#### Renders
 
 <div style={{ padding: '10px 30px', backgroundColor: 'cyan' }}>
   Try making this heading have the color green
@@ -113,15 +134,20 @@ This embedded JSX component
 
 ---
 
-This embedded component
+### This embedded component
+
 ```
-> This is blockquote embedded component
->Quote this
+> This is a blockquote embedded component example
 >
->Quote that
+> Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nulla vitae elit libero, a pharetra augue.
+>
+> Nulla vitae elit libero, a pharetra augue. Maecenas faucibus mollis interdum.
+>
+> Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Curabitur blandit tempus porttitor. Donec id elit non mi porta gravida at eget metus.
+
 ```
 
-### Renders
+#### Renders
 
 > This is a blockquote embedded component example
 >

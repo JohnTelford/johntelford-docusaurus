@@ -60,8 +60,9 @@ const sidebars = {
 ],
 
 'Experimental': [
-  'experimental/math/math',
-  'experimental/tables/table',
+  'experimental/JSX/math',
+  'experimental/JSX/table',
+  'experimental/JSX/examples',
 ],
 
 },

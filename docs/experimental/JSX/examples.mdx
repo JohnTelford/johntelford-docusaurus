@@ -1,0 +1,137 @@
+---
+Id: examples
+title: Examples
+---
+
+
+## MDX  Embeded JSX
+
+---
+
+
+These are a few example of  React JSX (JavaScript XML) components embedded in MDX Markdown. 
+
+---
+
+## Table
+
+This embedded JSX
+
+  
+  ```
+  <table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Author</th>
+      <th>Views</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Intro to CSS</td>
+      <td>Adam</td>
+      <td>858</td>
+    </tr>
+    <tr className="bg-emerald-200">
+      <td>A Long and Winding Tour of the History of UI Frameworks and Tools and the Impact on Design</td>
+      <td>Adam</td>
+      <td>112</td>
+    </tr>
+    <tr>
+      <td>Intro to JavaScript</td>
+      <td>Chris</td>
+      <td>1,280</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+```
+
+### Renders
+
+  <table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Author</th>
+      <th>Views</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Intro to CSS</td>
+      <td>Adam</td>
+      <td>858</td>
+    </tr>
+    <tr className="bg-emerald-200">
+      <td>A Long and Winding Tour of the History of UI Frameworks and Tools and the Impact on Design</td>
+      <td>Adam</td>
+      <td>112</td>
+    </tr>
+    <tr>
+      <td>Intro to JavaScript</td>
+      <td>Chris</td>
+      <td>1,280</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+## JSX
+
+This embedded component
+
+```
+<div style={{ padding: '20px', backgroundColor: 'red' }}>
+  <h3>This is JSX component</h3>
+</div>
+```
+
+### Renders 
+
+<div style={{ padding: '15px', backgroundColor: 'pink' }}>
+  This is JSX component
+</div>
+
+---
+
+This embedded JSX component 
+
+```
+<div style={{ padding: '10px 30px', backgroundColor: 'cyan' }}>
+  <h2>Try making this heading have the color green</h2>
+</div>
+```
+
+### Renders
+
+<div style={{ padding: '10px 30px', backgroundColor: 'cyan' }}>
+  Try making this heading have the color green
+</div>
+
+---
+
+This embedded component
+```
+> This is blockquote embedded component
+>Quote this
+>
+>Quote that
+```
+
+### Renders
+
+> This is a blockquote embedded component example
+>
+> Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nulla vitae elit libero, a pharetra augue.
+>
+> Nulla vitae elit libero, a pharetra augue. Maecenas faucibus mollis interdum.
+>
+> Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Curabitur blandit tempus porttitor. Donec id elit non mi porta gravida at eget metus.
+
+This is **Not** a blockquote
+
+---
+

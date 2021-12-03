@@ -3,9 +3,58 @@ Id: math
 title: Math
 ---
 
-## Math
+Mathematical equations can be rendered by embedding [KaTeX](https://katex.org/) in MDX.
+
+KaTeX is a JavaScript library for mathematics typesetting
+
+The layout is based on Donald Knuth's TeX, the gold standard for math typesetting.
+
+---
+
+## Examples
+
+Write inline math equations by wrapping LaTeX equations between $:
+
+This equation:
+
+`This inline equation $x+y^2$` 
+
+Renders:
+
+This inline equation $x+y^2$
+
+---
+
+This equation:
+
+`Let $f:[a,b] \to \R$ be Riemann integrable. Let $F:[a,b]\to\R$ be $F(x)=
+\int_{a}^{x}f(t)dt$. Then $$F$$ is continuous, and at all $x$ such that $f$ is continuous at $x$, $F$ is differentiable at $x$ with $F'(x)=f(x)$`
+
+Renders:
+
+Let $f:[a,b] \to \R$ be Riemann integrable. Let $F:[a,b]\to\R$ be $F(x)=
+\int_{a}^{x}f(t)dt$. Then $$F$$ is continuous, and at all $x$ such that $f$ is continuous at $x$, $F$ is differentiable at $x$ with $F'(x)=f(x)$
+
+---
+
+This equation:
+
+`$$\displaystyle \frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} = 1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}} {1+\frac{e^{-8\pi}} {1+\cdots} } } }$$`
+
+Renders:
 
 $$\displaystyle \frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} = 1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}} {1+\frac{e^{-8\pi}} {1+\cdots} } } }$$
 
+---
 
-$x+y^2$
+This equation:
+
+`$$f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi$$`
+
+Renders:
+
+$$f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi$$
+
+---
+
+

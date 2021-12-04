@@ -65,7 +65,8 @@ const sidebars = {
 ],
 
 'Tags': [
-  'seetags',
+  'docstags',
+  'blogtags',
 ],
 
 },

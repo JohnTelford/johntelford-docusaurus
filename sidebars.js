@@ -62,7 +62,10 @@ const sidebars = {
 'Experimental': [
   'experimental/JSX/examples',
   'experimental/JSX/math',
+],
 
+'Tags': [
+  'seetags',
 ],
 
 },

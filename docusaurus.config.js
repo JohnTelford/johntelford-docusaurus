@@ -35,6 +35,8 @@ const config = {
           showReadingTime: true,
           blogSidebarTitle: 'All posts',
           blogSidebarCount: 'ALL',
+          blogTagsListComponent: '@theme/BlogTagsListPage',
+          blogTagsPostsComponent: '@theme/BlogTagsPostsPage',
           // Please change this to your repo.
           editUrl:
             'https://github.com/facebook/docusaurus/edit/main/website/blog/',

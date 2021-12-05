@@ -48,27 +48,6 @@ const config = {
     ],
   ],
 
-    plugins: [
-      [
-        '@docusaurus/plugin-content-blog',
-        {
-          /**
-           * Required for any multi-instance plugin
-           */
-          id: 'techtalkjohnblog',
-          /**
-           * URL route for the blog section of your site.
-           * *DO NOT* include a trailing slash.
-           */
-          routeBasePath: 'techtalkjohnblog',
-          /**
-           * Path to data on filesystem relative to site dir.
-           */
-          path: './techtalkjohnblog',
-        },
-      ],
-    ],
-
   stylesheets: [
     {
       href: 'https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css',
@@ -77,7 +56,6 @@ const config = {
       crossorigin: 'anonymous',
     },
   ],
-
 
 
   themeConfig:
@@ -106,6 +84,7 @@ const config = {
           },
         ],
       },
+      
       footer: {
         style: 'dark',
         links: [

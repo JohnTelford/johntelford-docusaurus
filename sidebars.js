@@ -64,9 +64,12 @@ const sidebars = {
   'experimental/JSX/math',
 ],
 
-'Tags': [
-  'docstags',
-  'blogtags',
+'Tech Talk John': [
+  {
+    type: 'link',
+    label: 'TechTalkJohn',
+    href: 'https://techtalkjohn.com',
+  },
 ],
 
 },

@@ -70,6 +70,12 @@ const sidebars = {
     label: 'TechTalkJohn',
     href: 'https://techtalkjohn.com',
   },
+  
+  {
+    type: 'link',
+    label: 'TechTalkJohn blog',
+    href: 'https://techtalkjohn.com/blog',
+  },
 ],
 
 },

@@ -85,7 +85,13 @@ const config = {
           },
         ],
       },
-      
+
+    algolia: {
+      appId: '67NAH57DG7',
+      apiKey: 'e548ec8ae2da40ee822d8b48230d5c92',
+      indexName: 'johntelford',
+    },
+
       footer: {
         style: 'dark',
         links: [

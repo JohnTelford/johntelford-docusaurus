@@ -78,6 +78,20 @@ const sidebars = {
   },
 ],
 
+'Tags': [
+  {
+    type: 'link',
+    label: 'Docs Tags',
+    href: '/docs/tags',
+  },
+
+  {
+    type: 'link',
+    label: 'Blog Tags',
+    href: '/blog/tags',
+  },
+],
+
 },
 
 };

@@ -32,64 +32,64 @@ const sidebars = {
     'overview',
   ],
   
-'Define' : [
-  'define',
-],
+	'Define' : [
+	  'define',
+	],
+	
+	'Design': [
+	  'design',
+	],
+	
+	'Develop' : [
+	  'develop', 
+	  'programming',
+	  'webcomp',
+	  'workstations',
+	],
+	
+	'Deploy': [
+	  'deploy',
+	],
+	
+	'Maintain': [
+	  'maintain',
+	],
+	
+	'Company': [
+	  'company',
+	],
+	
+	'Experimental': [
+	  'experimental/JSX/examples',
+	  'experimental/JSX/math',
+	],
+	
+	'Tech Talk John': [
+	  {
+	    type: 'link',
+	    label: 'TechTalkJohn',
+	    href: 'https://techtalkjohn.com',
+	  },
+	  
+	  {
+	    type: 'link',
+	    label: 'TechTalkJohn blog',
+	    href: 'https://techtalkjohn.com/blog',
+	  },
+	],
+	
+	'Tags': [
+	  {
+	    type: 'link',
+	    label: 'Docs Tags',
+	    href: '/docs/tags',
+	  },
 
-'Design': [
-  'design',
-],
-
-'Develop' : [
-  'develop', 
-  'programming',
-  'webcomp',
-  'workstations',
-],
-
-'Deploy': [
-  'deploy',
-],
-
-'Maintain': [
-  'maintain',
-],
-
-'Company': [
-  'company',
-],
-
-'Experimental': [
-  'experimental/JSX/examples',
-  'experimental/JSX/math',
-],
-
-'Tech Talk John': [
-  {
-    type: 'link',
-    label: 'TechTalkJohn',
-    href: 'https://techtalkjohn.com',
-  },
-  
-  {
-    type: 'link',
-    label: 'TechTalkJohn blog',
-    href: 'https://techtalkjohn.com/blog',
-  },
-],
-
-'Tags': [
-  {
-    type: 'link',
-    label: 'Docs Tags',
-    href: '/docs/tags',
-  },
-
-  {
-    type: 'link',
-    label: 'Blog Tags',
-    href: '/blog/tags',
-  },
+	  {
+	    type: 'link',
+	    label: 'Blog Tags',
+	    href: '/blog/tags',
+	  },
 ],
 
 },

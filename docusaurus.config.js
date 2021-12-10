@@ -26,11 +26,8 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          /* math */
           remarkPlugins: [math],
-          /* kates */
           rehypePlugins: [katex],
-          /* showLastUpdateTime */
           showLastUpdateTime: true,
           // Please change this to your repo.
           editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
@@ -52,6 +49,17 @@ const config = {
     ],
   ],
 
+ plugins: [
+    [
+      '@docusaurus/plugin-sitemap',
+      {
+        changefreq: 'weekly',
+        priority: 0.5,
+        trailingSlash: false,
+      },
+    ],
+  ],
+
   stylesheets: [
     {
       href: 'https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css',
@@ -66,7 +74,6 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        /* title */
         title: 'JohnTelford.com',
 /*
      logo: {
@@ -90,7 +97,6 @@ const config = {
         ],
       },
 
-    /* algolia */
     algolia: {
       appId: '67NAH57DG7',
       apiKey: 'e548ec8ae2da40ee822d8b48230d5c92',

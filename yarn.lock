@@ -1561,7 +1561,7 @@
     tslib "^2.3.1"
     utility-types "^3.10.0"
 
-"@docusaurus/theme-search-algolia@2.0.0-beta.13", "@docusaurus/theme-search-algolia@^2.0.0-beta.13":
+"@docusaurus/theme-search-algolia@2.0.0-beta.13":
   version "2.0.0-beta.13"
   resolved "https://registry.yarnpkg.com/@docusaurus/theme-search-algolia/-/theme-search-algolia-2.0.0-beta.13.tgz#095c8ffbe1120c2a6f564e8e0fd9418dba2df267"
   integrity sha512-/+jiRQvuG85iWlOsprQd/1OGUifwN8t9WMlPA6TjAcUoycFdra73P/1RHZzMjuUd8CV0VbzaD+wLCryMdf5lIw==

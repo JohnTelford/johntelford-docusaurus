@@ -49,6 +49,7 @@ const config = {
     ],
   ],
 
+/* sitemap */
  plugins: [
     [
       '@docusaurus/plugin-sitemap',

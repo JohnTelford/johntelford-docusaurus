@@ -58,6 +58,12 @@ const sidebars = {
 	'Company': [
 	  'company',
 	],
+
+	'Hype Cycle': [
+		'hypecycle',
+	  ],
+	  
+  
 	
 	'Experimental': [
 	  'experimental/JSX/examples',

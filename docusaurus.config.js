@@ -17,7 +17,7 @@ const config = {
   favicon: 'img/favicon.ico',
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
-
+  plugins: ['@docusaurus/plugin-ideal-image'],
   presets: [
     
     [
@@ -45,6 +45,7 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+       
       }),
     ],
   ],
@@ -62,6 +63,17 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+
+      algolia: {
+        appId: '67NAH57DG7',
+        apiKey: 'e548ec8ae2da40ee822d8b48230d5c92',
+        indexName: 'johntelford',
+        contextualSearch: true,
+        externalUrlRegex: 'external\\.com|domain\\.com',
+        searchParameters: {},
+        contextualSearch: true,
+      },
+      
       navbar: {
         title: 'JohnTelford.com',
 /*
@@ -85,12 +97,6 @@ const config = {
           },
         ],
       },
-
-    algolia: {
-      appId: '67NAH57DG7',
-      apiKey: 'e548ec8ae2da40ee822d8b48230d5c92',
-      indexName: 'johntelford',
-    },
 
       footer: {
         style: 'dark',
@@ -142,8 +148,9 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+
+    plugins: ['@docusaurus/plugin-ideal-image'],
 };
 
-  
 module.exports = (config)
   
